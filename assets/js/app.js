@@ -1,3 +1,18 @@
+$('.ir-arriba').click(function() {
+  $('body, html').animate({
+    scrollTop: '0px'
+  }, 300);
+});
+
+$(window).scroll(function() {
+  if ($(this).scrollTop() > 0) {
+    $('.ir-arriba').slideDown(300);
+  } else {
+    $('.ir-arriba').slideUp(300);
+  }
+});
+
+
 let menuToggle = document.querySelector('.toggle-menu');
 let firstLine = document.querySelector('.first');
 let secondLine = document.querySelector('.second');
@@ -36,6 +51,7 @@ menuToggle.addEventListener('click', (e) => {
 
 
 
+
 $('#btn').click(() => {
   let name = $('#name').val();
   let email = $('#email').val();
@@ -48,7 +64,6 @@ $('#btn').click(() => {
   sendEmail(name, email, subject, msg);
 
 })
-
 
 function sendEmail(name, email, subject, msg) {
   var data = new FormData();
