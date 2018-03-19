@@ -35,10 +35,12 @@ section {
 
 #about {
   height: 100vh;
+  /* background-image: url(../img/degrade.png);
+  background-size: cover; */
   text-align: center;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
-  background-color: rgb(180, 178, 178);
+  background-color: #e3e3e3;
 }
 
 #about h2 {
@@ -47,33 +49,23 @@ section {
   color: #f9595991;
 }
 
-#about h3 {
-  font-size: 55px;
-  line-height: 50px;
-  color: #f95959;
-}
-
 #about h4 {
   color: #ffffff;
   line-height: 30px;
 }
 
 #about p {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 300;
+  padding-top: 4em;
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
 }
 
 #description {
   text-align: justify;
-  padding-top: 18%;
-  font-size: 122%;
-  padding-right: 10%;
-  /* background-color: #455d7a; */
+  font-size: 1.5em;
+  padding-right: 1.5em;
+  color: #455d7a;
   height: 100%;
-}
-
-#description p {
-  color: white;
 }
 
 #contact {
@@ -97,7 +89,8 @@ section {
 
 #portfolio h3,
 #skills h3,
-#contact h3 {
+#contact h3,
+#about h3 {
   font-family: 'Montserrat', sans-serif;
   color: #f95959;
   text-align: center;
@@ -139,10 +132,6 @@ section {
   padding-top: 1em;
   color: #455d7a;
   font-weight: bolder;
-}
-
-.aboutMe {
-  padding-top: 12em;
 }
 
 footer {
