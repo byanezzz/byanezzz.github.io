@@ -1,0 +1,267 @@
+[class*=" imghvr-"] figcaption,
+[class^=imghvr-] figcaption {
+  background-color: #f95959 !important;
+}
+
+figure {
+  margin-left: 0.6em !important;
+}
+
+header {
+  top: 0;
+  background-image: url('../img/home1.jpg');
+  height: 100vh;
+  width: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-position: top;
+  -webkit-filter: opacity(65%) blur(2px);
+  -moz-filter: opacity(65%) blur(2px);
+  -o-filter: opacity(65%) blur(2px);
+  -ms-filter: opacity(65%) blur(2px);
+  filter: opacity(85%) grayscale(50%);
+}
+
+section {
+  width: 100%
+}
+
+.title {
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+#about {
+  height: 100vh;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  background-color: rgb(180, 178, 178);
+}
+
+#about h2 {
+  font-size: 64px;
+  line-height: 50px;
+  color: #f9595991;
+}
+
+#about h3 {
+  font-size: 55px;
+  line-height: 50px;
+  color: #f95959;
+}
+
+#about h4 {
+  color: #ffffff;
+  line-height: 30px;
+}
+
+#about p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+}
+
+#description {
+  text-align: justify;
+  padding-top: 18%;
+  font-size: 122%;
+  padding-right: 10%;
+  /* background-color: #455d7a; */
+  height: 100%;
+}
+
+#description p {
+  color: white;
+}
+
+#contact {
+  text-align: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  color: #f95959;
+}
+
+#contactMe {
+  text-align: justify;
+  font-size: 1.5em;
+  padding-right: 1.5em;
+  color: #455d7a;
+}
+
+#portfolio {
+  height: 100%;
+  background-color: #e3e3e3;
+}
+
+#portfolio h3,
+#skills h3,
+#contact h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #f95959;
+  text-align: center;
+}
+
+#contact a {
+  display: inline-block;
+  padding: 2em;
+  color: #455d7a;
+}
+
+#skills i {
+  font-size: 5em;
+  color: #f95959;
+}
+
+#skills i:hover {
+  color: #f95959;
+}
+
+#skill,
+#skillContainer {
+  height: 100%;
+}
+
+#img-logo {
+  width: 100%;
+}
+
+.skillCard {
+  height: 20em;
+}
+
+.panel {
+  border: none !important;
+}
+
+.panel p {
+  padding-top: 1em;
+  color: #455d7a;
+  font-weight: bolder;
+}
+
+.aboutMe {
+  padding-top: 12em;
+}
+
+footer {
+  background-color: #f95959;
+  padding-top: 1em;
+  height: 4em;
+  color: #fff;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Lato');
+* {
+  font-family: 'Lato';
+}
+
+nav {
+  background-color: rgba(255, 255, 255, 0.6);
+  padding: 0 2em;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 106px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav .logo-link {
+  z-index: 10;
+  color: #f95959;
+  width: 100%;
+}
+
+nav .logo-link .logo-img {
+  font-size: 3em;
+}
+
+.toggle-menu {
+  display: block;
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+  z-index: 10;
+}
+
+.toggle-menu .toggle-icon-line {
+  margin-bottom: 8px;
+  width: 40px;
+  height: 3px;
+  background: #f95959;
+  transition: 500ms;
+  opacity: 1;
+}
+
+#main-nav {
+  background: #f95959;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 5;
+  display: flex;
+  opacity: 0;
+  transition: 500ms;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  list-style: none;
+}
+
+#main-nav li {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 2em;
+  font-weight: 900;
+  width: 100%;
+  text-align: center;
+  transition: 300ms;
+  cursor: pointer;
+  color: #fff;
+}
+
+#main-nav li:hover {
+  background-color: rgb(180, 178, 178);
+  width: 100%;
+}
+
+.rotate-first {
+  transform: rotate(45deg) translateY(15px);
+  background-color: #455d7a !important;
+}
+
+.hide-second {
+  opacity: 0!important;
+}
+
+.rotate-third {
+  transform: rotate(-45deg) translateY(-15px);
+  background-color: #455d7a !important;
+}
+
+.display-menu {
+  opacity: 1!important;
+}
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */
+}
