@@ -68,6 +68,10 @@ section {
   font-weight: 400;
 }
 
+.aboutMe img {
+  border-radius: 50%;
+}
+
 #description {
   padding-top: 4em;
   text-align: justify;
@@ -116,7 +120,8 @@ section {
   color: #f95959;
 }
 
-#skills i:hover {
+.fa-npm {
+  font-size: 5em;
   color: #f95959;
 }
 
@@ -267,5 +272,9 @@ nav .logo-link .logo-img {
 @media (max-width: 600px) {
   section {
     height: auto !important;
+  }
+  figcaption {
+    padding: 6px !important;
+    font-size: 0.6em;
   }
 }
