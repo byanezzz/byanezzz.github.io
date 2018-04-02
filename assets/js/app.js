@@ -39,7 +39,7 @@ $(function() {
     }
   });
 });
-
+/* 
 menuToggle.addEventListener('click', (e) => {
   e.preventDefault();
   firstLine.classList.toggle('rotate-first');
@@ -97,7 +97,7 @@ function sendEmail(name, email, subject, msg) {
     .then(function(response) {
       console.log(response);
     });
-}
+} */
 
 
 /* const nodemailer = require('nodemailer');
